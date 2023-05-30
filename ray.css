@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;1,400&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poppins:wght@300&family=Roboto:wght@100&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;1,400&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dancing+Script:wght@500&family=Poppins:wght@300&family=Roboto:wght@100&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans:ital,wght@0,100;0,400;1,400&family=Josefin+Slab:ital,wght@0,400;1,500&family=Noto+Nastaliq+Urdu&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;1,400&family=Josefin+Slab:ital,wght@0,400;1,500&family=Noto+Nastaliq+Urdu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;1,400&family=Josefin+Slab:ital,wght@0,400;1,500&family=Noto+Nastaliq+Urdu&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Dancing+Script:wght@400;500&family=Josefin+Sans:ital,wght@0,100;0,400;1,400&family=Josefin+Slab:ital,wght@0,400;1,500&family=Noto+Nastaliq+Urdu&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&family=Dancing+Script:wght@400;500&family=Josefin+Sans:ital,wght@0,100;0,400;1,400&family=Josefin+Slab:ital,wght@0,400;1,500&family=Noto+Nastaliq+Urdu&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif; 
+   
+   
+}
+*, ::before, ::after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+
+.heading  h1{
+    text-align: center;
+    font-family: "Dancing Script", sans-serif;
+
+    
+}
+
+
+
+
+
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    width: 100%;
+    background: #f8f6f6;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover{
+    background: #f5f0f0;
+}
+ul li:hover ul.dropdown{
+    display: block;
+} 
+.navbar-nav {
+    padding: 5px 50px;
+    display: block;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+    
+
+}
+.navbar-brand img{
+    width: 80px;
+    margin-right:500px;
+}
+ 
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.swiper{
+    width: 900px;
+    height: fit-content;
+
+}
+.swiper-slide img{
+    width:100%;
+    height: 550px;
+}
+.swiper .swiper-button-prev{
+    color: #000;
+}
+.swiper .swiper-button-next{
+    color: #000;
+}
+.swiper .swiper-pagination-bullet-active{
+    background: #f5f0f0;
+}
+.acteur .member{
+    position: relative;
+    padding: 50px;
+    box-shadow: 0px 2px 55px rgba(0,0, 0, 0.1);
+    border-radius: 5px;
+    background: #fff ;
+}
+.acteur .member .acteurpic{
+   overflow: hidden;
+   width: 300px;
+   border-radius: 50px;
+   
+}
+
+.acteur .member .memer-info{
+   padding-left: 30px;
+}
+.acteur .member h4{
+   font-weight: 700;
+   margin-bottom: 5px;
+   font-size: 20px;
+   color: black;
+}
+.acteur .member span{
+   display: block;
+   font-size: 15px;
+   padding-bottom: 10px;
+   position: relative;
+   font-weight: 500;
+}
+.acteur .member span::after{
+   content: "";
+   position: absolute;
+   display: block;
+   width: 50px;
+   height: 2px;
+   background: black;
+   bottom: 0;
+   left: 0;
+}
+.acteur .member p{
+   margin:  10px 0 0 0;
+   font-size: 14px;
+}
+.acteur .member .social{
+   margin-top: 12px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+}
+.acteur .member .social a{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 32px;
+   height: 32px;
+   background: #eff2ef;
+}
+.acteur .member .social a i{
+   color: black;
+   font-size: 16px;
+   margin: 0 2px;
+}
+.acteur .member .social a:hover {
+   background: rgb(161, 42, 21);
+
+}
+.acteur .member .social a:hover i{
+   color: white;
+}
+.acteur .member .social a+a{
+   margin-left: 8px;
+}
+section{
+   padding: 60px 0;
+   overflow: hidden;
+}
+.section-title{
+   text-align: center;
+   padding-bottom: 30px;
+}
+.underline{
+   width: 300px;
+   height: 1px;
+   background-color: rgb(9, 7, 7);
+   margin: auto;
+   margin-top: -30px;
+
+}
+.underline-2{
+   width: 450px;
+   height: 1px;
+   background-color: rgb(9, 7, 7);
+   margin: auto;
+   margin-top: -30px;
+
+}
+.section-title h2{
+   font-size: 32px;
+   font-weight: bold;
+   margin-bottom: 20px;
+   padding-bottom: 20px;
+   position: relative;
+   color: rgb(102, 10, 10);
+}
+.section-title p{
+   margin-top: 20px;
+   font-family: "Josefin Sans", sans-serif;
+}
+.form-signup{
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  .row p{
+   font-family: "Josefin Sans", sans-serif;
+   margin-top: 5px;
+  }
+  .container-3{
+   width:100%;
+   height: 100vh;
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   
+
+}
+ .text-uppercase {
+   color: #000;
+font-family: "Josefin Sans",    sans-serif;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:991px){
+html{
+    font-size: 55%;
+}
+}
+
+@media (max-width:450px){
+html{
+    font-size: 50%;
+}
+}
+p{
+   font-size: 20px;
+   font-weight: bold;
+   position: relative;
+   color: rgb(12, 12, 12);
+}
+.container .card img{
+   height: 300px;
+   margin-bottom: 5px;
+   
+   }
+.container .card .card-body h5{
+   font-family: "Josefin Sans", sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+   position: relative;
+   text-align: center;
+   color: rgb(12, 12, 12);
+
+}
+.container .card .card-body p{
+   font-family: "Josefin Sans", sans-serif;
+   font-size: 15px;
+}
+.container-fluid .card{
+   height: 300px;
+   width: 300px;
+}
+
+.image{
+   max-width: 1000px;
+   margin: 0 auto;
+   padding: 30px;
+   border-radius: 10px;
+   box-shadow: 10px 10px 15px rgba(0,0, 0, 0.3);
+}
+image::after{
+   content: "";
+   display: block;
+   clear: both;
+}
+.image h2{
+   margin-bottom: 10px;
+   color: #521616;
+   font-family: "Dancing Script", sans-serif;
+   
+}
+.image p{
+   
+   line-height: 1.4;
+   font-family: "Josefin Sans", sans-serif;
+}
+.image img{
+   width: 400px;
+   height: 400px;
+   object-fit: cover;
+   border-radius: 50%;
+   float: left;
+   shape-outside: margin-box;
+   margin: 0 30px 15px 0;
+}
+
+footer {
+   margin-top:100px  ;
+   background-color: #dfdbdb;
+   color:#0a0909 ;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding: 30px;
+ 
+   }
+  footer .social-media{
+    display: flex;
+   
+   }
+   footer .social-media p{
+     margin-right: 30px;
+     border: 1px solid #ad3232;
+     border-radius: 200%;
+     padding: 5px;
+     text-align: center;
+     width: 40px;
+     cursor: pointer;
+   }
+
+   footer .social-media p a{
+    color: #000;
+    }
+    header{
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items:center;
+    }
+    header h1{
+      font-size: 50px;
+      max-width: 500px;
+      text-align:center;
+      font-family: "Dancing Script", sans-serif;
+    }
+    header p{
+        font-size: 30px;
+        text-align:center;
+        font-family: 'Satisfy', cursive;
+        color: #580424;
+    }
+    header button{
+      padding: 15px 20px;
+      font-size: 20px;
+      border:none;
+      border-radius: 5px;
+      outline:none;
+      cursor:pointer;
+    }
+
+
+.main-container{
+   margin: 6% 0 0 36%;
+   position: relative;
+   width: 23%;
+   left: -90px;
+
+  
+ 
+  }
+.image-1{
+   display: list-item;
+   width: 200%;
+   height: 500px;
+
+  
+ 
+
+  }
+  .image-2{
+   display: flex;
+   width: 200%;
+   height:500px;
+   
+ 
+
+  }
+.overlay{
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background-color: rgba(143, 138, 138, 0.75);
+   overflow: hidden;
+   width: 200%;
+   height: 0;
+   transition: .5s ease;
+   align-items: center;
+   justify-content: center;
+  }
+.main-container:hover .overlay{
+   height: 100%;
+  }
+  .overlay h1{
+   width: 100%;
+   margin-top: 30%;
+   color: #fdfdfd;
+   font-size: 4vw;
+   position: absolute;
+   text-align: center;
+   font-family: "Dancing Script", sans-serif ;
+   transform: rotate(-5deg)skewX(-5deg);
+  }
+  .overlay h2{
+   text-align: center;
+   font-family: "Josefin Sans", sans-serif;
+   color: #fff;
+   font-size: 1.2vw;
+   margin: 60% 0 0 18%;
+   width: 70%;
+   letter-spacing: 5px;
+   line-height: 1.5em;
+
+  }
